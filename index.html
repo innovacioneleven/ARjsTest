@@ -13,7 +13,6 @@
         <img id="transpImageCapa2" src="Capa2.png">
         <img id="transpImageCapa3" src="Capa3.png">
         <img id="transpImageCapa4" src="Capa4.png">
-        <img id="imageMarker" src="pattern_Origami_marker_qr.patt">
       </a-assets>
 
       <a-image width="1" height="1" src="#transpImageFondo" position='0 0.5 0' rotation="-90 0 0" ></a-image>
@@ -22,7 +21,7 @@
       <a-image width="1" height="1" src="#transpImageCapa3" position='0 0.8 0' rotation="-90 0 0" ></a-image>
       <a-image width="1" height="1" src="#transpImageCapa4" position='0 0.9 0' rotation="-90 0 0" ></a-image>
 
-      <a-marker-camera preset='hiro'></a-marker-camera>
+      <a-marker-camera preset='custom' type='pattern' src="pattern_Origami_marker_qr.patt"></a-marker-camera>
 
     </a-scene>
   </body>
