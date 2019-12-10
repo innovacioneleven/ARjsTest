@@ -18,12 +18,12 @@
         <img id="transpImageCapa5" src="Capa5.png">
       </a-assets>
 
-      <a-image width="1" height="1" src="#transpImageFondo" position='0 0 0' rotation="-90 0 0" ></a-image>
-      <a-image width="1" height="1" src="#transpImageCapa1" position='0 0.15 0' rotation="-90 0 0" ></a-image>
-      <a-entity geometry="primitive:plane" position="0 0.3 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa2;alphaTest:0.5;">></a-entity>
-      <a-image width="1" height="1" src="#transpImageCapa3" position='0 0.45 0' rotation="-90 0 0" ></a-image>
-      <a-entity geometry="primitive:plane" position="0 0.6 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa4;alphaTest:0.5;">></a-entity>
-      <a-image width="1" height="1" src="#transpImageCapa5" position='0 0.75 0' rotation="-90 0 0" ></a-image>
+      <a-image width="1" height="1" src="#transpImageFondo" position='0 0 0' rotation="-90 0 0" scale="2 2" ></a-image>
+      <a-image width="1" height="1" src="#transpImageCapa1" position='0 0.15 0' rotation="-90 0 0" scale="2 2" ></a-image>
+      <a-entity geometry="primitive:plane;width:2;height:2;" position="0 0.3 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa2;alphaTest:0.5;">></a-entity>
+      <a-image width="1" height="1" src="#transpImageCapa3" position='0 0.45 0' rotation="-90 0 0" scale="2 2 0" ></a-image>
+      <a-entity geometry="primitive:plane;width:2;height:2;" position="0 0.6 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa4;alphaTest:0.5;">></a-entity>
+      <a-image width="1" height="1" src="#transpImageCapa5" position='0 0.75 0' rotation="-90 0 0" scale="2 2 0" ></a-image>
 
       <a-marker-camera preset='custom' type='pattern' url='pattern_Origami.patt'></a-marker-camera>
       
