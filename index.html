@@ -10,19 +10,20 @@
   <body>
     <a-scene embedded arjs>
       <a-assets>
-        <img id="transpImageFondo" src="Fondo.gif">
-        <img id="transpImageCapa1" src="Capa1.gif">
+        <img id="transpImageFondo" src="Fondo.png">
+        <img id="transpImageCapa1" src="Capa1.png">
         <img id="transpImageCapa2" src="Capa2.gif">
-        <img id="transpImageCapa3" src="Capa3.gif">
+        <img id="transpImageCapa3" src="Capa3.png">
         <img id="transpImageCapa4" src="Capa4.gif">
+        <img id="transpImageCapa3" src="Capa5.png">
       </a-assets>
 
-      <a-entity geometry="primitive:plane" position="0 0 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa2;" gif="" transparent="true"></a-entity>
-      <!--a-image width="1" height="1" src="#transpImageFondo" position='0 0 0' rotation="-90 0 0" ></a-image>
-      <a-image width="1" height="1" src="#transpImageCapa1" position='0 0.6 0' rotation="-90 0 0" ></a-image>
-      <a-image width="1" height="1" src="#transpImageCapa2" position='0 0.7 0' rotation="-90 0 0" ></a-image>
-      <a-image width="1" height="1" src="#transpImageCapa3" position='0 0.8 0' rotation="-90 0 0" ></a-image>
-      <a-image width="1" height="1" src="#transpImageCapa4" position='0 0.9 0' rotation="-90 0 0" ></a-image-->
+      <a-image width="1" height="1" src="#transpImageFondo" position='0 0 0' rotation="-90 0 0" ></a-image>
+      <a-image width="1" height="1" src="#transpImageCapa1" position='0 0.1 0' rotation="-90 0 0" ></a-image>
+      <a-entity geometry="primitive:plane" position="0 0.2 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa2;" gif="" transparent="true"></a-entity>
+      <a-image width="1" height="1" src="#transpImageCapa3" position='0 0.3 0' rotation="-90 0 0" ></a-image>
+      <a-entity geometry="primitive:plane" position="0 0.4 0" rotation="-90 0 0" material="shader:gif;src:#transpImageCapa4;" gif="" transparent="true"></a-entity>
+      <a-image width="1" height="1" src="#transpImageCapa5" position='0 0.5 0' rotation="-90 0 0" ></a-image>
 
       <a-marker-camera preset='custom' type='pattern' url='pattern_Origami.patt'></a-marker-camera>
       
