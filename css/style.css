@@ -2,8 +2,8 @@ body{
     background: rgba(0, 0, 0, 0.5);
 }
 
-.audio{
+div{
     position: absolute;
-    left: 100%;
+    margin: auto;
 }
 
