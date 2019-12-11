@@ -5,6 +5,7 @@ body{
 .audioPlay{
     position: absolute;
     z-index: 10;
-    margin: auto;    
+    margin: 15%;
+
 }
 
