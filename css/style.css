@@ -1,0 +1,9 @@
+body{
+    background: rgba(0, 0, 0, 0.5);
+}
+audio{
+    position: absolute;
+    align-content: center;
+    z-index: 1;
+
+}
