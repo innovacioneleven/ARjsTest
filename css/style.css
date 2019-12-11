@@ -1,11 +1,9 @@
-body{
-    background: rgba(0, 0, 0, 0.5);
-}
+
 
 .audioPlay{
     position: absolute;
     z-index: 10;
-    margin: 15%;
+    background-color: rgba(0, 0, 0, 0.5);
 
 }
 
