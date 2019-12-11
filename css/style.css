@@ -4,7 +4,7 @@ body{
 
 .audio{
     position: absolute;
-    z-index: 1;
+    width: 50%;
     align-content: center;
 }
 
