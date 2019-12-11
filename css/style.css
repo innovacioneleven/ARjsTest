@@ -2,10 +2,8 @@ body{
     background: rgba(0, 0, 0, 0.5);
 }
 
-
 .audio{
     position: absolute;
-    z-index: 1;
-    text-align: center;
+    left: 100%;
 }
 
