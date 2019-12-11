@@ -2,8 +2,9 @@ body{
     background: rgba(0, 0, 0, 0.5);
 }
 
-div{
+.audioPlay audio{
     position: absolute;
-    margin: auto;
+    z-index: 10;
+    
 }
 
