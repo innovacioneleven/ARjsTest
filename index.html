@@ -12,6 +12,7 @@
 </head>
 
 <body>
+
     <div class="sound" id="display">
         <button class="button" onclick="playAudio()" type="button">
           <img src="Indicador de Volúmen.png" alt="play">
@@ -19,12 +20,9 @@
         <audio id="play" loop>
           <source src="ChristmasVillage.mp3" type="audio/mp3">
         </audio>
-      </div>
+    </div>
 
   <a-scene embedded arjs>
-
-     
-      
 
     <a-assets>
       <img id="transpImageFondo" src="Fondo.png">
@@ -51,19 +49,20 @@
 
     <a-marker-camera preset='custom' type='pattern' url='pattern_Card.patt'></a-marker-camera>
 
-    <script>
-        var play = document.getElementById("play");
-        function playAudio() {
-            play.play();
-            if(play.play()){
-                document.getElementById("display").style.display = "none";
-            }
-        }
-        
-    </script>
+    
 
   </a-scene>
 
+  <script>
+      var play = document.getElementById("play");
+      function playAudio() {
+          play.play();
+          if(play.play()){
+              document.getElementById("display").style.display = "none";
+          }
+      }
+      
+  </script>
  
 </body>
 
