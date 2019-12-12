@@ -3,7 +3,9 @@
     padding: 0px;
 }
 
-
+canvas{
+    z-index: -1;
+}
 
 .sound{
     display: flex;
