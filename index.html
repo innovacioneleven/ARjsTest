@@ -22,7 +22,7 @@
         </audio>
     </div>
 
-  <a-scene embedded arjs>
+  <a-scene arjs='trackingMethod: best; debugUIEnabled: false;' vr-mode-ui="enabled: false" ar-templat>
 
     <a-assets>
       <img id="transpImageFondo" src="Fondo.png">
@@ -53,16 +53,9 @@
 
   </a-scene>
 
-  <script>
-      var play = document.getElementById("play");
-      function playAudio() {
-          play.play();
-          if(play.play()){
-              document.getElementById("display").style.display = "none";
-          }
-      }
-      
-  </script>
+  <script src="js/main.js"></script>
+
+  
  
 </body>
 
