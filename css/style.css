@@ -8,10 +8,10 @@ canvas{
 }
 
 .sound{
-    left: 45%;
-    top: 5%;
-    position: absolute;
-    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    ;
 }
 
 img{
