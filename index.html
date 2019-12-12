@@ -13,16 +13,18 @@
 
 <body>
 
-  <div class="sound" id="display">
-    <button class="button" onclick="playAudio()" type="button">
-      <img src="Indicador de Volúmen.png" alt="play">
-    </button>
-    <audio id="play" loop>
-      <source src="ChristmasVillage.mp3" type="audio/mp3">
-    </audio>
-  </div>
 
   <a-scene embedded arjs>
+
+      <div class="sound" id="display">
+          <button class="button" onclick="playAudio()" type="button">
+            <img src="Indicador de Volúmen.png" alt="play">
+          </button>
+          <audio id="play" loop>
+            <source src="ChristmasVillage.mp3" type="audio/mp3">
+          </audio>
+        </div>
+      
 
     <a-assets>
       <img id="transpImageFondo" src="Fondo.png">
