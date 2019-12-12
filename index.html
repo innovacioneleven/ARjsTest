@@ -51,22 +51,20 @@
 
     <a-marker-camera preset='custom' type='pattern' url='pattern_Card.patt'></a-marker-camera>
 
+    <script>
+        var play = document.getElementById("play");
+        function playAudio() {
+            play.play();
+            if(play.play()){
+                document.getElementById("display").style.display = "none";
+            }
+        }
+        
+    </script>
+
   </a-scene>
 
-  <script>
-      var play = document.getElementById("play");
-
-      function playAudio() {
-
-          play.play();
-          if(play.play()){
-            
-              document.getElementById("display").style.display = "none";
-
-          }
-      }
-      
-  </script>
+ 
 </body>
 
 </html>
